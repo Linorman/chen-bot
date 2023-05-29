@@ -23,7 +23,6 @@
     <Folder Include="Modules\MusicShare\constant\" />
     <Folder Include="Modules\MusicShare\entity\" />
     <Folder Include="Modules\Translate\constant\" />
-    <Folder Include="Database\" />
   </ItemGroup>
 
 </Project>

@@ -24,14 +24,6 @@ ISoraService service = SoraServiceFactory.CreateService(new ServerConfig()
     Port = 9000
 });
 
-// service.Event.OnGroupMessage += async (sender, eventArgs) =>
-// {
-//     if (eventArgs.SourceGroup.Id == )
-//     {
-//         await eventArgs.SourceGroup.SendGroupMessage(eventArgs.Message.MessageBody);
-//     }
-// };
-
 await service.StartService()
     .RunCatch(e => Log.Error("Sora Service", Log.ErrorLogBuilder(e)));
 await Task.Delay(-1);
