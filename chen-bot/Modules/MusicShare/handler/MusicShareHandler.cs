@@ -64,10 +64,7 @@ public class MusicShareHandler
             await eventArgs.Reply("没有找到歌曲");
             return;
         }
-        // var client = new HttpClient();
-        // var response = await client.GetAsync(url);
-        // var result = await response.Content.ReadAsStringAsync();
-        // var image = Convert.ToBase64String(Encoding.UTF8.GetBytes(result));
+       
         // 转换成CQ码
         textReply += $"[CQ:image,file={url}]";
         await eventArgs.Reply(textReply);
