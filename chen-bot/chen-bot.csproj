@@ -20,6 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Modules\Chat\constant\" />
+    <Folder Include="Modules\Chat\entity\" />
     <Folder Include="Modules\MusicShare\constant\" />
     <Folder Include="Modules\MusicShare\entity\" />
     <Folder Include="Modules\Translate\constant\" />
