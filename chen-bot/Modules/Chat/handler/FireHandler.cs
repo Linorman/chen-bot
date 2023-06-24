@@ -14,7 +14,7 @@ public class FireHandler
         SourceType = SourceFlag.Private,
         MatchType = MatchType.Full
     )]
-    public static async ValueTask Fire(GroupMessageEventArgs eventArgs)
+    public static async ValueTask Fire(PrivateMessageEventArgs eventArgs)
     {
         // 获取qq号
         long qq = eventArgs.Sender.Id;
